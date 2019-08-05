@@ -7,7 +7,7 @@ namespace LeetCodeTests
     public class ReverseStringTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void SwapPairs()
         {
             var solution = new Solution();
             var chars = new char['a', 'b', 'c', 'd'];

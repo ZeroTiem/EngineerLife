@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineerLife", "EngineerLife\EngineerLife.csproj", "{1B0C250B-7455-4E88-93D6-63477A55E042}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineerLife", "EngineerLife\EngineerLife.csproj", "{1B0C250B-7455-4E88-93D6-63477A55E042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewFun", "InterviewFun\InterviewFun.csproj", "{83DE14C6-52C0-49A3-B2AA-A1B4593E1767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewFun", "InterviewFun\InterviewFun.csproj", "{83DE14C6-52C0-49A3-B2AA-A1B4593E1767}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewFunTests", "InterviewFunTests\InterviewFunTests.csproj", "{6A57FB16-9412-4899-B441-4E119B96D9A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewFunTests", "InterviewFunTests\InterviewFunTests.csproj", "{6A57FB16-9412-4899-B441-4E119B96D9A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{EFD03496-9EB1-422C-8DBF-BA1BEB3525E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{EFD03496-9EB1-422C-8DBF-BA1BEB3525E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeTests", "LeetCodeTests\LeetCodeTests.csproj", "{35EC9E56-9315-4B5D-8C8B-4DCFD50B094A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeTests", "LeetCodeTests\LeetCodeTests.csproj", "{35EC9E56-9315-4B5D-8C8B-4DCFD50B094A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineerLifeTests", "EngineerLifeTests\EngineerLifeTests.csproj", "{EEF726CA-F835-4238-AB2B-F7862DFD9202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{35EC9E56-9315-4B5D-8C8B-4DCFD50B094A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35EC9E56-9315-4B5D-8C8B-4DCFD50B094A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35EC9E56-9315-4B5D-8C8B-4DCFD50B094A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF726CA-F835-4238-AB2B-F7862DFD9202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF726CA-F835-4238-AB2B-F7862DFD9202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF726CA-F835-4238-AB2B-F7862DFD9202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF726CA-F835-4238-AB2B-F7862DFD9202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
