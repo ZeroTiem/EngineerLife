@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LeetCode.Recursion
 {
-    public class Defanging_an_IP_Address_No1108
+    public class No1108_Defanging_an_IP_Address
     {
         public string DefangIPaddr(string address)
         {
