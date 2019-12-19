@@ -1,27 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using LeetCode.Utilities;
 
 namespace LeetCode.Eazy
 {
     public class No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer
     {
-        private int Sum { get; set; }
-        private int Magnification { get; set; } = 0;
-
         public int GetDecimalValue(ListNode head)
         {
-            if (Magnification == 0)
-                Magnification = 1;
-            else
-                Magnification *= 2;
+            return BinaryCumulative(head, 0);
+        }
 
-            Sum += head.val == 1 ? Magnification : 0;
-
-            if (head.next != null)
-                GetDecimalValue(head.next);
-
-            return Sum;
+        public int BinaryCumulative(ListNode head, int sum)
+        {
+            return head == null ? sum : BinaryCumulative(head.next, sum * 2 + (head.val));
         }
     }
 }

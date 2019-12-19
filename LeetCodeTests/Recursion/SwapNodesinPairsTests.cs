@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using LeetCode;
+using LeetCode.Utilities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace LeetCodeTests
