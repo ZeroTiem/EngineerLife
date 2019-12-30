@@ -1,15 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode.Eazy;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using LeetCode.Eazy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCode.Eazy.Tests
+namespace LeetCodeTests.Eazy
 {
-    [TestClass()]
+    [TestClass]
     public class No1221_Split_a_String_in_Balanced_StringsTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void BalancedStringSplitTest()
         {
             //Arrange
@@ -21,7 +18,7 @@ namespace LeetCode.Eazy.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void BalancedStringSplitTest1()
         {
             //Arrange
@@ -33,7 +30,7 @@ namespace LeetCode.Eazy.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void BalancedStringSplitTest2()
         {
             //Arrange
@@ -45,7 +42,7 @@ namespace LeetCode.Eazy.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void BalancedStringSplitTest3()
         {
             //Arrange

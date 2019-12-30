@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace LeetCodeTests.Eazy
 {
@@ -26,7 +24,7 @@ namespace LeetCodeTests.Eazy
 
         private int GetNumberLength(int number)
         {
-           return (int)Math.Floor(Math.Log10(number)) + 1;
+            return (int) Math.Floor(Math.Log10(number)) + 1;
         }
 
         private int GetNumberLength1(int number)
@@ -37,6 +35,7 @@ namespace LeetCodeTests.Eazy
                 number /= 10;
                 length++;
             }
+
             return length;
         }
     }

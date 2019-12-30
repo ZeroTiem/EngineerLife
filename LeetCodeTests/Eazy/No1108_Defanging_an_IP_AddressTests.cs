@@ -1,15 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode.Recursion;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using LeetCode.Recursion;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCode.Recursion.Tests
+namespace LeetCodeTests.Eazy
 {
-    [TestClass()]
+    [TestClass]
     public class No1108_Defanging_an_IP_AddressTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void DefangIPaddrTest1()
         {
             //Arrange
@@ -21,7 +18,7 @@ namespace LeetCode.Recursion.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void DefangIPaddrTest2()
         {
             //Arrange

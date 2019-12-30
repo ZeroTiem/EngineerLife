@@ -1,15 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode.Eazy;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using LeetCode.Eazy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCode.Eazy.Tests
+namespace LeetCodeTests.Eazy
 {
-    [TestClass()]
+    [TestClass]
     public class No709_To_Lower_CaseTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void ToLowerCaseTestInputHelloExpectedhello()
         {
             //Arrange
@@ -21,7 +18,7 @@ namespace LeetCode.Eazy.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void ToLowerCaseTestInputhelloExpectedhello()
         {
             //Arrange

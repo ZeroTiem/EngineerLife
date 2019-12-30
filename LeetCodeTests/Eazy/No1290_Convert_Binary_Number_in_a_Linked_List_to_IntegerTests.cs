@@ -1,26 +1,23 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System.Collections.Generic;
 using LeetCode.Eazy;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using LeetCode.Utilities;
-using LeetCode.Extension;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCode.Eazy.Tests
+namespace LeetCodeTests.Eazy
 {
-    [TestClass()]
+    [TestClass]
     public class No1290_Convert_Binary_Number_in_a_Linked_List_to_IntegerTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void GetDecimalValueTest1()
         {
             //Arrange
-            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer = new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
+            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer =
+                new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
             var listNode =
                 Utility.GenerateListNode(
                     new Queue<int>(
-                        new int[] { 1, 0, 1 }
+                        new[] {1, 0, 1}
                     ));
 
             var expected = 5;
@@ -30,15 +27,16 @@ namespace LeetCode.Eazy.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void GetDecimalValueTest2()
         {
             //Arrange
-            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer = new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
+            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer =
+                new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
             var listNode =
                 Utility.GenerateListNode(
                     new Queue<int>(
-                        new int[] { 0 }
+                        new[] {0}
                     ));
             var expected = 0;
             //Act
@@ -47,15 +45,16 @@ namespace LeetCode.Eazy.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void GetDecimalValueTest3()
         {
             //Arrange
-            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer = new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
+            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer =
+                new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
             var listNode =
                 Utility.GenerateListNode(
                     new Queue<int>(
-                        new int[] { 1 }
+                        new[] {1}
                     ));
             var expected = 1;
             //Act
@@ -64,15 +63,16 @@ namespace LeetCode.Eazy.Tests
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void GetDecimalValueTest4()
         {
             //Arrange
-            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer = new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
+            var no1290_Convert_Binary_Number_in_a_Linked_List_to_Integer =
+                new No1290_Convert_Binary_Number_in_a_Linked_List_to_Integer();
             var listNode =
                 Utility.GenerateListNode(
                     new Queue<int>(
-                        new int[] { 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0 }
+                        new[] {1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0}
                     ));
             var expected = 18880;
             //Act
@@ -80,6 +80,5 @@ namespace LeetCode.Eazy.Tests
             //Assert
             Assert.AreEqual(expected, act);
         }
-
     }
 }

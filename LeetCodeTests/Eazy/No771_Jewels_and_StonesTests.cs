@@ -1,17 +1,14 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode.Eazy;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using LeetCode.Eazy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCode.Eazy.Tests
+namespace LeetCodeTests.Eazy
 {
-    [TestClass()]
+    [TestClass]
     public class No771_Jewels_and_StonesTests
     {
         public No771_Jewels_and_Stones No771JewelsAndStones = new No771_Jewels_and_Stones();
 
-        [TestMethod()]
+        [TestMethod]
         public void DefangIPaddrTest1()
         {
             //Arrange
@@ -19,12 +16,12 @@ namespace LeetCode.Eazy.Tests
             var s = "aAAbbbb";
             var expected = 3;
             //Act
-            var act = No771JewelsAndStones.NumJewelsInStones(j,s);
+            var act = No771JewelsAndStones.NumJewelsInStones(j, s);
             //Assert
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void DefangIPaddrTest2()
         {
             //Arrange

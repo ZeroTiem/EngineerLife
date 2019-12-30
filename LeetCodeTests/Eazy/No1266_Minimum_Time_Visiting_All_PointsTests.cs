@@ -1,46 +1,42 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode.Eazy;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using LeetCode.Eazy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCode.Eazy.Tests
+namespace LeetCodeTests.Eazy
 {
-    [TestClass()]
+    [TestClass]
     public class No1266_Minimum_Time_Visiting_All_PointsTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void BalancedStringSplitTest()
         {
             //Arrange
             var no1221SplitAStringInBalancedStrings = new No1266_Minimum_Time_Visiting_All_Points();
             var expected = 5;
             //Act
-            var act = no1221SplitAStringInBalancedStrings.MinTimeToVisitAllPoints(new int[][]
+            var act = no1221SplitAStringInBalancedStrings.MinTimeToVisitAllPoints(new[]
             {
-                new int[] { 3,2 },
-                new int[] { -2,2 },
+                new[] {3, 2},
+                new[] {-2, 2}
             });
             //Assert
             Assert.AreEqual(expected, act);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void BalancedStringSplitTest1()
         {
             //Arrange
             var no1221SplitAStringInBalancedStrings = new No1266_Minimum_Time_Visiting_All_Points();
             var expected = 7;
             //Act
-            var act = no1221SplitAStringInBalancedStrings.MinTimeToVisitAllPoints(new int[][]
+            var act = no1221SplitAStringInBalancedStrings.MinTimeToVisitAllPoints(new[]
             {
-                new int[] { 1,1 },
-                new int[] { 3,4 },
-                new int[] { -1,0 },
+                new[] {1, 1},
+                new[] {3, 4},
+                new[] {-1, 0}
             });
             //Assert
             Assert.AreEqual(expected, act);
         }
-
     }
 }
