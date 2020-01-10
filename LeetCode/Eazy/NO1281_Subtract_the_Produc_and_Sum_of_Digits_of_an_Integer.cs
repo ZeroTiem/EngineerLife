@@ -55,10 +55,6 @@ namespace LeetCode.Eazy
                 ints.Add(lastNumber);
                 number /= 10;
             }
-            //if (number > 0)
-            //{
-            //    return IntToListInt(number);
-            //}
             return ints;
         }
 
