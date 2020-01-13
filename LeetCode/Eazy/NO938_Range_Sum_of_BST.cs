@@ -22,7 +22,7 @@ namespace LeetCode.Eazy
             return RecursiveBST(root, L, R);
         }
 
-        public int RecursiveBST(TreeNode root, int l, int r, int resultSun = 0, bool isCumulative = false)
+        public int RecursiveBST(TreeNode root, int l, int r, int resultSun = 0)
         {
             if (root != null)
             {
@@ -31,8 +31,8 @@ namespace LeetCode.Eazy
                     resultSun += root.val;
                 }
 
-                if (root.left != null) resultSun = RecursiveBST(root.left, l, r, resultSun, isCumulative);
-                if (root.right != null) resultSun = RecursiveBST(root.right, l, r, resultSun, isCumulative);
+                if (root.left != null) resultSun = RecursiveBST(root.left, l, r, resultSun);
+                if (root.right != null) resultSun = RecursiveBST(root.right, l, r, resultSun);
             }
             return resultSun;
         }
