@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeTests", "LeetCodeTests\LeetCodeTests.csproj", "{35EC9E56-9315-4B5D-8C8B-4DCFD50B094A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineerLifeTests", "EngineerLifeTests\EngineerLifeTests.csproj", "{EEF726CA-F835-4238-AB2B-F7862DFD9202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineerLifeTests", "EngineerLifeTests\EngineerLifeTests.csproj", "{EEF726CA-F835-4238-AB2B-F7862DFD9202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
