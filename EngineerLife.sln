@@ -16,6 +16,7 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineerLifeTests", "EngineerLifeTests\EngineerLifeTests.csproj", "{EEF726CA-F835-4238-AB2B-F7862DFD9202}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{D10BD449-86F5-4C3E-8BA2-4AB262F3463E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineerLifeTests", "EngineerLifeTests\EngineerLifeTests.csproj", "{EEF726CA-F835-4238-AB2B-F7862DFD9202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
