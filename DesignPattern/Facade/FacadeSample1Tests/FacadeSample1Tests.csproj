@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DesignPattern\FacadeSample1.csproj" />
+    <ProjectReference Include="..\FacadeSample1\FacadeSample1.csproj" />
   </ItemGroup>
 
 </Project>
