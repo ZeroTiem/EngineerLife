@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LeetCodeTests.Eazy
 {
-    public class NO1295_Find_Numbers_with_Even_Number_of_Digits
+    public class No1295_Find_Numbers_with_Even_Number_of_Digits
     {
         public int FindNumbers(int[] nums)
         {

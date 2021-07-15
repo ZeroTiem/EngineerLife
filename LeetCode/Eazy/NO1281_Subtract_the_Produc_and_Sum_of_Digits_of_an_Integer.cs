@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LeetCode.Eazy
 {
-    public class NO1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer
+    public class No1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer
     {
         public int SubtractProductAndSum(int n)
         {

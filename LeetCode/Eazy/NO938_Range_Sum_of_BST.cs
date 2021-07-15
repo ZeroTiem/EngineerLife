@@ -15,7 +15,7 @@ namespace LeetCode.Eazy
  *     public TreeNode(int x) { val = x; }
  * }
  */
-    public class NO938_Range_Sum_of_BST
+    public class No938_Range_Sum_of_BST
     {
         public int RangeSumBST(TreeNode root, int L, int R)
         {

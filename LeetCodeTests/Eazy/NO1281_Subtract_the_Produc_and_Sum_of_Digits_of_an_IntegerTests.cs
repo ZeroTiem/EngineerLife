@@ -11,7 +11,7 @@ namespace LeetCodeTests.Eazy
         {
             //Arrange
             var no1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer =
-                new NO1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer();
+                new No1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer();
             var expected = 15;
             //Act
             var act = no1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer.SubtractProductAndSum(234);
@@ -24,7 +24,7 @@ namespace LeetCodeTests.Eazy
         {
             //Arrange
             var no1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer =
-                new NO1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer();
+                new No1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer();
             var expected = 21;
             //Act
             var act = no1281_Subtract_the_Produc_and_Sum_of_Digits_of_an_Integer.SubtractProductAndSum(4421);

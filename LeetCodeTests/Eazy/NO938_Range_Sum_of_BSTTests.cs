@@ -14,7 +14,7 @@ namespace LeetCodeTests.Eazy
         public void DefangIPaddrTest1()
         {
             //Arrange
-            var no938RangeSumOfBst = new NO938_Range_Sum_of_BST();
+            var no938RangeSumOfBst = new No938_Range_Sum_of_BST();
             var expected = 32;
             var root = new TreeNode(10)
             {
@@ -38,7 +38,7 @@ namespace LeetCodeTests.Eazy
         public void DefangIPaddrTest2()
         {
             //Arrange
-            var no938RangeSumOfBst = new NO938_Range_Sum_of_BST();
+            var no938RangeSumOfBst = new No938_Range_Sum_of_BST();
             var expected = 23;
             var root = new TreeNode(10)
             {
