@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29025.244
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineerLife", "EngineerLife\EngineerLife.csproj", "{1B0C250B-7455-4E88-93D6-63477A55E042}"
 EndProject
@@ -19,15 +19,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{68B83CCC-D196-4CFD-A3C1-E88A6E031195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeSample1Tests", "DesignPattern\FacadeSample1Tests\FacadeSample1Tests.csproj", "{FE883439-B137-44AF-8DAF-9DF01769F3F6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeSample1", "DesignPattern\FacadeSample1\FacadeSample1.csproj", "{A1CF7FC3-4F57-473D-BCC2-338F5748EC4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeSample1Tests", "DesignPattern\FacadeSample1Tests\FacadeSample1Tests.csproj", "{FE883439-B137-44AF-8DAF-9DF01769F3F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{10779E34-D679-46FD-8CB9-88DFC4340210}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{C995AF6E-4B49-4B9E-88F7-32B6A3651DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterSamples1", "DesignPattern\AdapterSamples1\AdapterSamples1.csproj", "{FCDD65D4-50E7-494B-B638-B5A7CC83B7C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterSamples1", "DesignPattern\AdapterSamples1\AdapterSamples1.csproj", "{FCDD65D4-50E7-494B-B638-B5A7CC83B7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterSamples1Tests", "DesignPattern\AdapterSamples1Tests\AdapterSamples1Tests.csproj", "{E93F5C44-C6B9-4F3F-B31D-1374E841A7B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterSamples1Tests", "DesignPatternTests\AdapterSamples1Tests\AdapterSamples1Tests.csproj", "{D9C1CEAB-C7F8-4797-8590-58BC915B4D76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,24 +65,29 @@ Global
 		{FE883439-B137-44AF-8DAF-9DF01769F3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE883439-B137-44AF-8DAF-9DF01769F3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE883439-B137-44AF-8DAF-9DF01769F3F6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1CF7FC3-4F57-473D-BCC2-338F5748EC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1CF7FC3-4F57-473D-BCC2-338F5748EC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1CF7FC3-4F57-473D-BCC2-338F5748EC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1CF7FC3-4F57-473D-BCC2-338F5748EC4D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FCDD65D4-50E7-494B-B638-B5A7CC83B7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FCDD65D4-50E7-494B-B638-B5A7CC83B7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDD65D4-50E7-494B-B638-B5A7CC83B7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDD65D4-50E7-494B-B638-B5A7CC83B7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93F5C44-C6B9-4F3F-B31D-1374E841A7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93F5C44-C6B9-4F3F-B31D-1374E841A7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93F5C44-C6B9-4F3F-B31D-1374E841A7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93F5C44-C6B9-4F3F-B31D-1374E841A7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C1CEAB-C7F8-4797-8590-58BC915B4D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C1CEAB-C7F8-4797-8590-58BC915B4D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C1CEAB-C7F8-4797-8590-58BC915B4D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C1CEAB-C7F8-4797-8590-58BC915B4D76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{10779E34-D679-46FD-8CB9-88DFC4340210} = {68B83CCC-D196-4CFD-A3C1-E88A6E031195}
-		{A1CF7FC3-4F57-473D-BCC2-338F5748EC4D} = {10779E34-D679-46FD-8CB9-88DFC4340210}
 		{FE883439-B137-44AF-8DAF-9DF01769F3F6} = {10779E34-D679-46FD-8CB9-88DFC4340210}
+		{10779E34-D679-46FD-8CB9-88DFC4340210} = {68B83CCC-D196-4CFD-A3C1-E88A6E031195}
 		{C995AF6E-4B49-4B9E-88F7-32B6A3651DF1} = {68B83CCC-D196-4CFD-A3C1-E88A6E031195}
 		{FCDD65D4-50E7-494B-B638-B5A7CC83B7C3} = {C995AF6E-4B49-4B9E-88F7-32B6A3651DF1}
+		{E93F5C44-C6B9-4F3F-B31D-1374E841A7B4} = {C995AF6E-4B49-4B9E-88F7-32B6A3651DF1}
+		{D9C1CEAB-C7F8-4797-8590-58BC915B4D76} = {10779E34-D679-46FD-8CB9-88DFC4340210}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4071701A-9F4C-439E-947C-DB19348EF8D8}
